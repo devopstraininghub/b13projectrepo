@@ -1,0 +1,19 @@
+ 
+Hi Akhilesh here,
+
+A FEW GIT COMMANDS:
+
+git init   : initiates the git repo, which is local repo
+
+git stages/ git architecture
+-----------------------------
+
+workspace: where developers write the code. here the code will be in untracked stage.
+           command to use to keep the records in tracking area is git add 
+
+staging area:  here the code will be in tracked stage.
+               command to use : git commit -m "commit message"
+
+repository : all the tracked code will be stored in a repository.
+             command to use : git push
+

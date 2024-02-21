@@ -1,0 +1,32 @@
+
+ Hi Akhilesh here,
+
+In this file we'll look into few vim editor commands.
+
+
+esc i   --> it converts the editor to insert mode. we can add the content/data.
+
+esc :w  --> it writes the code, which is also called as saves the code/content/data.
+
+esc:q  --> it helps to quit the vim editor.
+
+esc:wq  --> this command helps to save and quit.
+
+esc:wq!  --> quit forcefully
+
+dd    --> deletes the line
+5dd  --> deletes 5 lines
+
+yy  --> yanking { copies the line of code/data}
+
+p  --> pastes the line of code
+
+set nu   --> sets the numbers in the editor
+set nonu  --> removes the numbered lines in editor 
+
+
+
+
+
+ 
+
