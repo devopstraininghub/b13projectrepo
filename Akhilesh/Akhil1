@@ -5,7 +5,7 @@ A FEW GIT COMMANDS:
 
 git init   : initiates the git repo, which is local repo
 
-git stages/ git architecture
+GIT STAGES/ git architecture
 -----------------------------
 
 workspace: where developers write the code. here the code will be in untracked stage.
@@ -16,4 +16,49 @@ staging area:  here the code will be in tracked stage.
 
 repository : all the tracked code will be stored in a repository.
              command to use : git push
+=======================================================================
+
+GIT TAG:
+
+git tag                       -->  helps to show the available tags
+git tag <tagname>             -->  helps to create a tag
+git checkout <tagname>        -->  this tag switches to the specific tag
+git push origin <tagname>     -->  pushes the tag to the remote repo
+git push origin -d <tagname>  -->  deletes the tag from central/remote repo
+
+===========================================================================
+
+GIT REVERT:
+rollbacks/reverts to a specific commit
+reverts to the previous version.
+
+git revert commit_id        --> reverts back to the specific commit id data/source code
+
+===========================================================================
+
+GIT AMEND:
+This helps to modify the latest commit message.
+
+---> THE BELOW COMMAND HELPS IN CHANGING THE PREVIOUS COMMIT MESSAGE
+git commit --amend -m "new commit message"
+
+---> THE BELOW COMMAND HELPS TO CREATE MULTIPLE COMMIT MESSAGES
+git commit --amend -m "modified commit message" -m "some ticket info"
+
+ --> we also can add same commit_Id to multiple files. Just need to creat a file and bring it to tracking stage and when commiting use below command.
+git commit --amend -m "adding one more file to the same commit_id" 
+
+===========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
 
