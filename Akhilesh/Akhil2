@@ -25,6 +25,11 @@ set nu   --> sets the numbers in the editor
 set nonu  --> removes the numbered lines in editor 
 
 
+shortcutkeys
+-----------
+A  : end of the line
+G : end of the content
+gg : top of the content
 
 
 
