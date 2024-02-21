@@ -1,0 +1,27 @@
+ 
+GIT CONFLICT/MERGE CONFLICT:
+----------------------------
+
+THIS ARISES WHEN THE FILE NAME IS SAME BUT THE CONTENT OR CODE INSIDE THE FILE IS DIFFERENT.
+
+SAME FILENAMES eg:
+-------------------
+
+feature1.java    |   feature1.java
+
+f1.py   |  f1.py
+
+abhi  |  abhi
+
+if the data or code in the above filename types are different then merge conflict or git conflict arrives.
+in this scenarios developers need to connect and resolve the issue manually, because the code has been developed by developers.
+=======================
+
+DIFFERENT FILENAMES eg:
+-----------------------
+
+feature1.java  | feature1.py
+
+f1  | F1
+
+In the above file names scenarios there will not be any merge conflicts if the code is different.

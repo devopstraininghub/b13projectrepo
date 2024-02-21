@@ -1,0 +1,25 @@
+
+
+Hello all,
+below is the content of branches in git:
+----------------------------------------
+
+BRANCHES TYPES:
+ 1. MAIN/MASTER
+ 2. FEATURE BRANCH
+ 3. RELEASE BRANCH
+ 4. HOT FIX BRANCH
+
+========================================
+BRANCHING COMMANDS IN GIT:
+
+git branch
+
+git branch -r
+
+git checkout -b akhil
+
+git push origin akhil
+git push url akhil
+
+
