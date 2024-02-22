@@ -1,6 +1,6 @@
 @model Group8_006_iCARE.Models.UsersModal
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Login Page";
 }
 
 <style>
