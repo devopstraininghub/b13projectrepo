@@ -1,0 +1,640 @@
+
+chdir(/etc)
+fchdir() to previous dir
+sourcing "/etc/vimrc"
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 4: sourcing "/usr/share/vim/vim90/defaults.vim"
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 98: sourcing "/usr/share/vim/vim90/filetype.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim90/filetype.vim
+continuing in /usr/share/vim/vim90/defaults.vim
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 98: sourcing "/usr/share/vim/vim90/ftplugin.vim"
+finished sourcing /usr/share/vim/vim90/ftplugin.vim
+continuing in /usr/share/vim/vim90/defaults.vim
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 98: sourcing "/usr/share/vim/vim90/indent.vim"
+finished sourcing /usr/share/vim/vim90/indent.vim
+continuing in /usr/share/vim/vim90/defaults.vim
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+line 138: sourcing "/usr/share/vim/vim90/syntax/syntax.vim"
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+line 20: sourcing "/usr/share/vim/vim90/syntax/synload.vim"
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+line 22: sourcing "/usr/share/vim/vim90/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim90/colors/lists)
+fchdir() to previous dir
+line 54: sourcing "/usr/share/vim/vim90/colors/lists/default.vim"
+finished sourcing /usr/share/vim/vim90/colors/lists/default.vim
+continuing in /usr/share/vim/vim90/syntax/syncolor.vim
+finished sourcing /usr/share/vim/vim90/syntax/syncolor.vim
+continuing in /usr/share/vim/vim90/syntax/synload.vim
+finished sourcing /usr/share/vim/vim90/syntax/synload.vim
+continuing in /usr/share/vim/vim90/syntax/syntax.vim
+Executing FileType Autocommands for "*"
+autocommand 0verbose exe "set syntax=" . expand("<amatch>")
+
+finished sourcing /usr/share/vim/vim90/syntax/syntax.vim
+continuing in /usr/share/vim/vim90/defaults.vim
+finished sourcing /usr/share/vim/vim90/defaults.vim
+continuing in /etc/vimrc
+finished sourcing /etc/vimrc
+chdir(/c/Users/letsc)
+fchdir() to previous dir
+could not source "$HOME/.vimrc"
+chdir(/c/Users/letsc/.vim)
+fchdir() to previous dir
+could not source "~/.vim/vimrc"
+chdir(/c/Users/letsc)
+fchdir() to previous dir
+could not source "$HOME/.exrc"
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+sourcing "$VIMRUNTIME/defaults.vim"
+finished sourcing $VIMRUNTIME/defaults.vim
+not found in 'packpath': "pack/*/start/*"
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/getscriptPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim90/plugin/gzip.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/logiPat.vim"
+finished sourcing /usr/share/vim/vim90/plugin/logiPat.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/manpager.vim"
+finished sourcing /usr/share/vim/vim90/plugin/manpager.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim90/plugin/matchparen.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim90/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim90/plugin/spellfile.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim90/plugin/tohtml.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/vimballPlugin.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/zipPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/zipPlugin.vim
+not found in 'packpath': "pack/*/start/*"
+not found in 'runtimepath': "plugin/**/*.vim"
+Reading viminfo file "/c/Users/letsc/.viminfo" info oldfiles
+"insta" 
+"insta" [dos] 1L, 19B
+Reading viminfo file "/c/Users/letsc/.viminfo" marks
+Executing BufRead Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 0: sourcing "/usr/share/vim/vim90/scripts.vim"
+chdir(/usr/share/vim/vim90/autoload/dist)
+fchdir() to previous dir
+line 27: sourcing "/usr/share/vim/vim90/autoload/dist/script.vim"
+finished sourcing /usr/share/vim/vim90/autoload/dist/script.vim
+continuing in /usr/share/vim/vim90/scripts.vim
+finished sourcing /usr/share/vim/vim90/scripts.vim
+continuing in BufRead Autocommands for "*"
+Executing BufRead Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (expand("<amatch>") =~# '\.conf$'^I|| getline(1) =~ '^#' || getline(2) =~ '^#'^I|| getline(3) =~ '^#' || getline(4) =~ '^#'^I|| getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufRead Autocommands for "*"
+autocommand if line("'\"") > 0 && line("'\"") <= line("$")           && &filetype !~# 'commit\|gitrebase'           && expand("%") !~ "ADD_EDIT.patch"           && expand("%") !~ "addp-hunk-edit.diff" |   exe "normal! g`\"" | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing BufEnter Autocommands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Autocommands for "*"
+autocommand sil call s:VimEnter(expand("<amatch>"))
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim90/syntax/syncolor.vim-- INSERT --
+
+
+E492: Not an editor command: Q
+
+Writing viminfo file "/c/Users/letsc/.viminfo"
+chdir(/etc)
+fchdir() to previous dir
+sourcing "/etc/vimrc"
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 4: sourcing "/usr/share/vim/vim90/defaults.vim"
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 98: sourcing "/usr/share/vim/vim90/filetype.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim90/filetype.vim
+continuing in /usr/share/vim/vim90/defaults.vim
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 98: sourcing "/usr/share/vim/vim90/ftplugin.vim"
+finished sourcing /usr/share/vim/vim90/ftplugin.vim
+continuing in /usr/share/vim/vim90/defaults.vim
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 98: sourcing "/usr/share/vim/vim90/indent.vim"
+finished sourcing /usr/share/vim/vim90/indent.vim
+continuing in /usr/share/vim/vim90/defaults.vim
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+line 138: sourcing "/usr/share/vim/vim90/syntax/syntax.vim"
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+line 20: sourcing "/usr/share/vim/vim90/syntax/synload.vim"
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+line 22: sourcing "/usr/share/vim/vim90/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim90/colors/lists)
+fchdir() to previous dir
+line 54: sourcing "/usr/share/vim/vim90/colors/lists/default.vim"
+finished sourcing /usr/share/vim/vim90/colors/lists/default.vim
+continuing in /usr/share/vim/vim90/syntax/syncolor.vim
+finished sourcing /usr/share/vim/vim90/syntax/syncolor.vim
+continuing in /usr/share/vim/vim90/syntax/synload.vim
+finished sourcing /usr/share/vim/vim90/syntax/synload.vim
+continuing in /usr/share/vim/vim90/syntax/syntax.vim
+Executing FileType Autocommands for "*"
+autocommand 0verbose exe "set syntax=" . expand("<amatch>")
+
+finished sourcing /usr/share/vim/vim90/syntax/syntax.vim
+continuing in /usr/share/vim/vim90/defaults.vim
+finished sourcing /usr/share/vim/vim90/defaults.vim
+continuing in /etc/vimrc
+finished sourcing /etc/vimrc
+chdir(/c/Users/letsc)
+fchdir() to previous dir
+could not source "$HOME/.vimrc"
+chdir(/c/Users/letsc/.vim)
+fchdir() to previous dir
+could not source "~/.vim/vimrc"
+chdir(/c/Users/letsc)
+fchdir() to previous dir
+could not source "$HOME/.exrc"
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+sourcing "$VIMRUNTIME/defaults.vim"
+finished sourcing $VIMRUNTIME/defaults.vim
+not found in 'packpath': "pack/*/start/*"
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/getscriptPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim90/plugin/gzip.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/logiPat.vim"
+finished sourcing /usr/share/vim/vim90/plugin/logiPat.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/manpager.vim"
+finished sourcing /usr/share/vim/vim90/plugin/manpager.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim90/plugin/matchparen.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim90/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim90/plugin/spellfile.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim90/plugin/tohtml.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/vimballPlugin.vim
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/plugin/zipPlugin.vim"
+finished sourcing /usr/share/vim/vim90/plugin/zipPlugin.vim
+not found in 'packpath': "pack/*/start/*"
+not found in 'runtimepath': "plugin/**/*.vim"
+Reading viminfo file "/c/Users/letsc/.viminfo" info oldfiles
+"insta" 
+"insta" [dos] 1L, 19B
+Reading viminfo file "/c/Users/letsc/.viminfo" marks
+Executing BufRead Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+line 0: sourcing "/usr/share/vim/vim90/scripts.vim"
+chdir(/usr/share/vim/vim90/autoload/dist)
+fchdir() to previous dir
+line 27: sourcing "/usr/share/vim/vim90/autoload/dist/script.vim"
+finished sourcing /usr/share/vim/vim90/autoload/dist/script.vim
+continuing in /usr/share/vim/vim90/scripts.vim
+finished sourcing /usr/share/vim/vim90/scripts.vim
+continuing in BufRead Autocommands for "*"
+Executing BufRead Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (expand("<amatch>") =~# '\.conf$'^I|| getline(1) =~ '^#' || getline(2) =~ '^#'^I|| getline(3) =~ '^#' || getline(4) =~ '^#'^I|| getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufRead Autocommands for "*"
+autocommand if line("'\"") > 0 && line("'\"") <= line("$")           && &filetype !~# 'commit\|gitrebase'           && expand("%") !~ "ADD_EDIT.patch"           && expand("%") !~ "addp-hunk-edit.diff" |   exe "normal! g`\"" | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing BufEnter Autocommands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Autocommands for "*"
+autocommand sil call s:VimEnter(expand("<amatch>"))
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim90/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim90/syntax/syncolor.vim-- INSERT --
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+"insta" 
+"insta" [dos] 15L, 73B written
+Writing viminfo file "/c/Users/letsc/.viminfo"
