@@ -1,6 +1,0 @@
- checking for the branch protection rule
-
-adding brnach protection rule:
- got to settings  -> brnaches --> add branch protection rule.
-
-throws an error at the time of pushing code into github
