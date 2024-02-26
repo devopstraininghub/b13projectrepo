@@ -1,0 +1,6 @@
+Branching Practice 
+1)git branch branch name - To create a branch 
+2)git branch - to check on which brance are we 
+3)git checkout branch name to go to perticular branch (To make necesscary changes) 
+4)git merge branch name - to merge brance to the main branch 
+5)git push origin / url branch name - To push branch to Central repo 
